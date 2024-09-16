@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6b6969;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    background-color: #4cae4c;
+    border-radius: 20%;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#resumeOutput {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+}
+
+/* Existing CSS... */
+
+/* Additional styles for editable elements */
+.editable {
+    border: 1px dashed transparent;
+}
+
+.editable:focus {
+    border: 1px dashed #5cb85c;
+    outline: none;
+}
